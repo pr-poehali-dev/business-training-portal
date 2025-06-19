@@ -6,9 +6,10 @@ const Header = () => {
 
   const navItems = [
     { label: "Главная", path: "/" },
-    { label: "Обучение", path: "/courses" },
-    { label: "Лицензии", path: "/licenses" },
-    { label: "Вопросы и ответы", path: "/faq" },
+    { label: "Курсы ОТ", path: "/safety-courses" },
+    { label: "Производственное обучение", path: "/industrial-training" },
+    { label: "Сертификация", path: "/certification" },
+    { label: "Консультации", path: "/consulting" },
     { label: "Контакты", path: "/contacts" },
   ];
 
@@ -18,7 +19,7 @@ const Header = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <div className="text-2xl font-bold text-gray-900">
-              Учебный Центр
+              ПромБезопасность
             </div>
           </div>
 

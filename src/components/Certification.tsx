@@ -7,11 +7,12 @@ const Certification = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Сертификация и документы
+              Лицензии и аккредитация
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Получите официальные документы о повышении квалификации,
-              признанные работодателями и государственными органами.
+              Наш учебный центр имеет все необходимые лицензии и аккредитации
+              для проведения обучения по охране труда и промышленной
+              безопасности.
             </p>
 
             <div className="space-y-6">
@@ -21,10 +22,11 @@ const Certification = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-2">
-                    Государственная лицензия
+                    Лицензия на образовательную деятельность
                   </h4>
                   <p className="text-gray-600">
-                    Образовательная деятельность по лицензии № 12345
+                    Лицензия Рособрнадзора на право ведения образовательной
+                    деятельности
                   </p>
                 </div>
               </div>
@@ -35,10 +37,11 @@ const Certification = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-2">
-                    Удостоверения о повышении квалификации
+                    Аккредитация Минтруда РФ
                   </h4>
                   <p className="text-gray-600">
-                    Официальные документы установленного образца
+                    Право проведения обучения по охране труда и выдачи
+                    удостоверений
                   </p>
                 </div>
               </div>
@@ -49,34 +52,34 @@ const Certification = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-2">
-                    Сертификаты компетенций
+                    Согласование с Ростехнадзором
                   </h4>
                   <p className="text-gray-600">
-                    Подтверждение профессиональных навыков
+                    Обучение по промышленной безопасности опасных производств
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="bg-gradient-to-br from-purple-50 to-purple-100 p-8 rounded-2xl">
+          <div className="bg-gradient-to-br from-orange-50 to-orange-100 p-8 rounded-2xl">
             <div className="text-center">
               <div className="bg-white p-6 rounded-xl shadow-sm mb-6">
                 <Icon
-                  name="Certificate"
+                  name="Award"
                   size={48}
-                  className="text-purple-600 mx-auto mb-4"
+                  className="text-orange-600 mx-auto mb-4"
                 />
                 <h4 className="font-semibold text-gray-900 mb-2">
-                  Образец сертификата
+                  Удостоверение о проверке знаний
                 </h4>
                 <p className="text-sm text-gray-600">
-                  Учебный центр профессионального развития
+                  Центр профессиональной подготовки "ПромБезопасность"
                 </p>
               </div>
               <p className="text-sm text-gray-600">
-                Все документы заносятся в федеральный реестр и имеют QR-код для
-                проверки подлинности
+                Все удостоверения регистрируются в реестре Минтруда РФ и имеют
+                защитные элементы
               </p>
             </div>
           </div>

@@ -16,8 +16,8 @@ const ServiceCard = ({
   return (
     <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow">
       <div className="flex items-center mb-6">
-        <div className="bg-purple-100 p-3 rounded-lg mr-4">
-          <Icon name={icon} size={24} className="text-purple-600" />
+        <div className="bg-orange-100 p-3 rounded-lg mr-4">
+          <Icon name={icon} size={24} className="text-orange-600" />
         </div>
         <h3 className="text-xl font-semibold text-gray-900">{title}</h3>
       </div>
